@@ -1,9 +1,10 @@
 # Purpose
+
 This analysis uses R to review production data on the MechaCar for insights that may help the manufacturing team with production troubles.
 
 ## Linear Regression to Predict MPG
 
-![resources/mpg_regression.png]
+![alt text](https://github.com/ajkriegz/MechaCarChallenge/blob/main/resources/mpg_regression.png "MPG Regression Analysis")
 
 * The variables that seem to provide a non-random amount of variance to mpg values in this dataset are vehicle length and ground clearance.
 
@@ -11,15 +12,26 @@ This analysis uses R to review production data on the MechaCar for insights that
 
 * The r-squared value is over .7, meaning this model can be considered an accurate predictor of MechaCar prototypes. 
 
-## 
+## Summary Statistics on Suspension Coils
 
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+![alt text](https://github.com/ajkriegz/MechaCarChallenge/blob/main/resources/total_summary.png "Total Summary")
 
-## 
+![alt text](https://github.com/ajkriegz/MechaCarChallenge/blob/main/resources/lot_summary.png "Lot Summary")
 
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+Looking at the total summary, the coils do not exceed 100 pounds per square inch. However, while the overall variance falls within acceptable guidelines, the lot summary shows that Lot3 exceeds this variance threshold. Lot1 and Lot2 are acceptable.
+
+## T-Tests on Suspension Coils
+
+* The first t-test determines if the PSI across all manufacturing lots is statistically different from the population mean of 1500 PSI. The p-value is above the common 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+
+* 
+
+* 
+
+* 
+
 
 ## 
 
